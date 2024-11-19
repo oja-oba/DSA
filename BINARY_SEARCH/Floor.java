@@ -6,8 +6,8 @@ package BINARY_SEARCH;
  * The floor of a target is the greatest number in a sorted array that is less than or equal to the target.
  * This implementation uses binary search for an efficient solution.
  * 
- * Author: [Your Name]
- * Date: [Today's Date]
+ * Author: Ojaoba
+ * Date: 1//19/2024
  */
 
  public class Floor {
@@ -18,7 +18,7 @@ package BINARY_SEARCH;
 
         // Test cases
         System.out.println(floor(arr, 1)); // Output: -1 (No floor exists)
-        System.out.println(floor(arr, 4)); // Output: Index of 3
+        System.out.println(floor(arr, 4)); // Output: Index of 3 
         System.out.println(floor(arr, 6)); // Output: Index of 6
         System.out.println(floor(arr, 10)); // Output: Index of 9
     }
